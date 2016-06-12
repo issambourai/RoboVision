@@ -1,0 +1,83 @@
+<script src="s.js"></script>
+<script>
+var socket = io();
+var recognition = new webkitSpeechRecognition();
+setTimeout(function() {location.reload()}, 12000);
+recognition.continuous = true;
+recognition.interimResults = true;
+recognition.onresult = function(event) {
+  for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        var text = event.results[i][0].transcript;
+        process(text);
+      } else {
+        var text = event.results[i][0].transcript;
+        process(text);
+      }
+    }
+}
+recognition.onend = function() {
+  console.log("end")
+  recognition.start();
+}
+recognition.start();
+
+function process(text) {
+  var res = text.split(" ");
+  console.log(res);
+  for (var i = 0; i < res.length; i++) {
+    if (res[i] == "backward" || res[i] == "back") {
+      socket.emit('direction', "backward")
+    }
+    if (res[i] == "forward") {
+      socket.emit('direction', "forward")
+    }
+    if (res[i] == "right") {
+      socket.emit('direction', "right")
+    }
+    if (res[i] == "left") {
+      socket.emit('direction', "left")
+    }
+    if (res[i] == "stop") {
+      socket.emit('direction', "stop")
+    }
+  }
+}
+
+/**if (annyang) {
+  // Let's define a command.
+  var command1 = {
+    'back': function() {
+      socket.emit('direction', "back")
+      console.log("back")
+    }
+  };
+  var command2 = {
+    'right': function() {
+      socket.emit('direction', "right")
+      console.log("right")
+    }
+  }
+  var command3 ={
+    'forward': function() {
+        socket.emit('direction', "forward")
+        console.log("forward")
+    }
+  }
+  var command4 ={
+    'left': function() {
+      socket.emit('direction', "left")
+      console.log("left")
+    }
+  }
+  // Add our commands to annyang
+  annyang.addCommands(command1);
+  annyang.addCommands(command2);
+  annyang.addCommands(command3);
+  annyang.addCommands(command4);
+
+
+  // Start listening.
+  annyang.start();
+}*/
+</script>
