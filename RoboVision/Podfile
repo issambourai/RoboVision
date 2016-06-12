@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'RoboVision' do
+
+pod 'Firebase'
+pod 'Alamofire', '~> 2.0'
+pod 'Firebase/Database'
+
+end
+
+target 'RoboVisionTests' do
+
+end
+
+target 'RoboVisionUITests' do
+
+end
+

@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412AC73131F9C90D3C39EE0D /* Pods_RoboVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30AEC6A3246FB8CF3C37E84 /* Pods_RoboVision.framework */; };
+		F684CFE11D0D93EC007B40F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684CFE01D0D93EC007B40F4 /* AppDelegate.swift */; };
+		F684CFE31D0D93EC007B40F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684CFE21D0D93EC007B40F4 /* ViewController.swift */; };
+		F684CFE61D0D93EC007B40F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F684CFE41D0D93EC007B40F4 /* Main.storyboard */; };
+		F684CFE81D0D93EC007B40F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F684CFE71D0D93EC007B40F4 /* Assets.xcassets */; };
+		F684CFEB1D0D93EC007B40F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F684CFE91D0D93EC007B40F4 /* LaunchScreen.storyboard */; };
+		F684CFF61D0D93ED007B40F4 /* RoboVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684CFF51D0D93ED007B40F4 /* RoboVisionTests.swift */; };
+		F684D0011D0D93ED007B40F4 /* RoboVisionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F684D0001D0D93ED007B40F4 /* RoboVisionUITests.swift */; };
+		F684D00F1D0DB09F007B40F4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F684D00E1D0DB09F007B40F4 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F684CFF21D0D93ED007B40F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F684CFD51D0D93EB007B40F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F684CFDC1D0D93EB007B40F4;
+			remoteInfo = RoboVision;
+		};
+		F684CFFD1D0D93ED007B40F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F684CFD51D0D93EB007B40F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F684CFDC1D0D93EB007B40F4;
+			remoteInfo = RoboVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		096B11813D46FB38EDBB1311 /* Pods-RoboVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoboVision/Pods-RoboVision.release.xcconfig"; sourceTree = "<group>"; };
+		B0D42C4E9D1742E78FAD8D0E /* Pods-RoboVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoboVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoboVision/Pods-RoboVision.debug.xcconfig"; sourceTree = "<group>"; };
+		D30AEC6A3246FB8CF3C37E84 /* Pods_RoboVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoboVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F684CFDD1D0D93EB007B40F4 /* RoboVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F684CFE01D0D93EC007B40F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F684CFE21D0D93EC007B40F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F684CFE51D0D93EC007B40F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F684CFE71D0D93EC007B40F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F684CFEA1D0D93EC007B40F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F684CFEC1D0D93EC007B40F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F684CFF11D0D93ED007B40F4 /* RoboVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F684CFF51D0D93ED007B40F4 /* RoboVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboVisionTests.swift; sourceTree = "<group>"; };
+		F684CFF71D0D93ED007B40F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F684CFFC1D0D93ED007B40F4 /* RoboVisionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboVisionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F684D0001D0D93ED007B40F4 /* RoboVisionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboVisionUITests.swift; sourceTree = "<group>"; };
+		F684D0021D0D93ED007B40F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F684D00E1D0DB09F007B40F4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F684CFDA1D0D93EB007B40F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412AC73131F9C90D3C39EE0D /* Pods_RoboVision.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F684CFEE1D0D93ED007B40F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F684CFF91D0D93ED007B40F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398827B895B35551115C402A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0D42C4E9D1742E78FAD8D0E /* Pods-RoboVision.debug.xcconfig */,
+				096B11813D46FB38EDBB1311 /* Pods-RoboVision.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B86A638C9E4306FFA4B219ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D30AEC6A3246FB8CF3C37E84 /* Pods_RoboVision.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F684CFD41D0D93EB007B40F4 = {
+			isa = PBXGroup;
+			children = (
+				F684CFDF1D0D93EC007B40F4 /* RoboVision */,
+				F684CFF41D0D93ED007B40F4 /* RoboVisionTests */,
+				F684CFFF1D0D93ED007B40F4 /* RoboVisionUITests */,
+				F684CFDE1D0D93EB007B40F4 /* Products */,
+				398827B895B35551115C402A /* Pods */,
+				B86A638C9E4306FFA4B219ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F684CFDE1D0D93EB007B40F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F684CFDD1D0D93EB007B40F4 /* RoboVision.app */,
+				F684CFF11D0D93ED007B40F4 /* RoboVisionTests.xctest */,
+				F684CFFC1D0D93ED007B40F4 /* RoboVisionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F684CFDF1D0D93EC007B40F4 /* RoboVision */ = {
+			isa = PBXGroup;
+			children = (
+				F684D00E1D0DB09F007B40F4 /* GoogleService-Info.plist */,
+				F684CFE01D0D93EC007B40F4 /* AppDelegate.swift */,
+				F684CFE21D0D93EC007B40F4 /* ViewController.swift */,
+				F684CFE41D0D93EC007B40F4 /* Main.storyboard */,
+				F684CFE71D0D93EC007B40F4 /* Assets.xcassets */,
+				F684CFE91D0D93EC007B40F4 /* LaunchScreen.storyboard */,
+				F684CFEC1D0D93EC007B40F4 /* Info.plist */,
+			);
+			path = RoboVision;
+			sourceTree = "<group>";
+		};
+		F684CFF41D0D93ED007B40F4 /* RoboVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F684CFF51D0D93ED007B40F4 /* RoboVisionTests.swift */,
+				F684CFF71D0D93ED007B40F4 /* Info.plist */,
+			);
+			path = RoboVisionTests;
+			sourceTree = "<group>";
+		};
+		F684CFFF1D0D93ED007B40F4 /* RoboVisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F684D0001D0D93ED007B40F4 /* RoboVisionUITests.swift */,
+				F684D0021D0D93ED007B40F4 /* Info.plist */,
+			);
+			path = RoboVisionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F684CFDC1D0D93EB007B40F4 /* RoboVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F684D0051D0D93ED007B40F4 /* Build configuration list for PBXNativeTarget "RoboVision" */;
+			buildPhases = (
+				619147A5E8CB3779339E9381 /* Check Pods Manifest.lock */,
+				F684CFD91D0D93EB007B40F4 /* Sources */,
+				F684CFDA1D0D93EB007B40F4 /* Frameworks */,
+				F684CFDB1D0D93EB007B40F4 /* Resources */,
+				B93E5123A72081EF6A6DA634 /* Embed Pods Frameworks */,
+				D328FFB13DCBFB12097D2714 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboVision;
+			productName = RoboVision;
+			productReference = F684CFDD1D0D93EB007B40F4 /* RoboVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F684CFF01D0D93ED007B40F4 /* RoboVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F684D0081D0D93ED007B40F4 /* Build configuration list for PBXNativeTarget "RoboVisionTests" */;
+			buildPhases = (
+				F684CFED1D0D93ED007B40F4 /* Sources */,
+				F684CFEE1D0D93ED007B40F4 /* Frameworks */,
+				F684CFEF1D0D93ED007B40F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F684CFF31D0D93ED007B40F4 /* PBXTargetDependency */,
+			);
+			name = RoboVisionTests;
+			productName = RoboVisionTests;
+			productReference = F684CFF11D0D93ED007B40F4 /* RoboVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F684CFFB1D0D93ED007B40F4 /* RoboVisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F684D00B1D0D93ED007B40F4 /* Build configuration list for PBXNativeTarget "RoboVisionUITests" */;
+			buildPhases = (
+				F684CFF81D0D93ED007B40F4 /* Sources */,
+				F684CFF91D0D93ED007B40F4 /* Frameworks */,
+				F684CFFA1D0D93ED007B40F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F684CFFE1D0D93ED007B40F4 /* PBXTargetDependency */,
+			);
+			name = RoboVisionUITests;
+			productName = RoboVisionUITests;
+			productReference = F684CFFC1D0D93ED007B40F4 /* RoboVisionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F684CFD51D0D93EB007B40F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Adiyan;
+				TargetAttributes = {
+					F684CFDC1D0D93EB007B40F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JQ8VJS3V7N;
+					};
+					F684CFF01D0D93ED007B40F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JQ8VJS3V7N;
+						TestTargetID = F684CFDC1D0D93EB007B40F4;
+					};
+					F684CFFB1D0D93ED007B40F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JQ8VJS3V7N;
+						TestTargetID = F684CFDC1D0D93EB007B40F4;
+					};
+				};
+			};
+			buildConfigurationList = F684CFD81D0D93EB007B40F4 /* Build configuration list for PBXProject "RoboVision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F684CFD41D0D93EB007B40F4;
+			productRefGroup = F684CFDE1D0D93EB007B40F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F684CFDC1D0D93EB007B40F4 /* RoboVision */,
+				F684CFF01D0D93ED007B40F4 /* RoboVisionTests */,
+				F684CFFB1D0D93ED007B40F4 /* RoboVisionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F684CFDB1D0D93EB007B40F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F684CFEB1D0D93EC007B40F4 /* LaunchScreen.storyboard in Resources */,
+				F684D00F1D0DB09F007B40F4 /* GoogleService-Info.plist in Resources */,
+				F684CFE81D0D93EC007B40F4 /* Assets.xcassets in Resources */,
+				F684CFE61D0D93EC007B40F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F684CFEF1D0D93ED007B40F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F684CFFA1D0D93ED007B40F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		619147A5E8CB3779339E9381 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B93E5123A72081EF6A6DA634 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoboVision/Pods-RoboVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D328FFB13DCBFB12097D2714 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoboVision/Pods-RoboVision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F684CFD91D0D93EB007B40F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F684CFE31D0D93EC007B40F4 /* ViewController.swift in Sources */,
+				F684CFE11D0D93EC007B40F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F684CFED1D0D93ED007B40F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F684CFF61D0D93ED007B40F4 /* RoboVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F684CFF81D0D93ED007B40F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F684D0011D0D93ED007B40F4 /* RoboVisionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F684CFF31D0D93ED007B40F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F684CFDC1D0D93EB007B40F4 /* RoboVision */;
+			targetProxy = F684CFF21D0D93ED007B40F4 /* PBXContainerItemProxy */;
+		};
+		F684CFFE1D0D93ED007B40F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F684CFDC1D0D93EB007B40F4 /* RoboVision */;
+			targetProxy = F684CFFD1D0D93ED007B40F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F684CFE41D0D93EC007B40F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F684CFE51D0D93EC007B40F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F684CFE91D0D93EC007B40F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F684CFEA1D0D93EC007B40F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F684D0031D0D93ED007B40F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F684D0041D0D93ED007B40F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F684D0061D0D93ED007B40F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D42C4E9D1742E78FAD8D0E /* Pods-RoboVision.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoboVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiyan.RoboVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F684D0071D0D93ED007B40F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096B11813D46FB38EDBB1311 /* Pods-RoboVision.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoboVision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiyan.RoboVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F684D0091D0D93ED007B40F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoboVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiyan.RoboVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboVision.app/RoboVision";
+			};
+			name = Debug;
+		};
+		F684D00A1D0D93ED007B40F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoboVisionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiyan.RoboVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboVision.app/RoboVision";
+			};
+			name = Release;
+		};
+		F684D00C1D0D93ED007B40F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoboVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiyan.RoboVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoboVision;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F684D00D1D0D93ED007B40F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoboVisionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adiyan.RoboVisionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoboVision;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F684CFD81D0D93EB007B40F4 /* Build configuration list for PBXProject "RoboVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F684D0031D0D93ED007B40F4 /* Debug */,
+				F684D0041D0D93ED007B40F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F684D0051D0D93ED007B40F4 /* Build configuration list for PBXNativeTarget "RoboVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F684D0061D0D93ED007B40F4 /* Debug */,
+				F684D0071D0D93ED007B40F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F684D0081D0D93ED007B40F4 /* Build configuration list for PBXNativeTarget "RoboVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F684D0091D0D93ED007B40F4 /* Debug */,
+				F684D00A1D0D93ED007B40F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F684D00B1D0D93ED007B40F4 /* Build configuration list for PBXNativeTarget "RoboVisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F684D00C1D0D93ED007B40F4 /* Debug */,
+				F684D00D1D0D93ED007B40F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F684CFD51D0D93EB007B40F4 /* Project object */;
+}
